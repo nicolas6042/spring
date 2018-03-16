@@ -1,0 +1,21 @@
+package com.domain.spiringfirst.library;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+/**
+ * @author mbaranowicz
+ */
+@Configuration
+public class LibraryConfig {
+
+    @Bean
+    public Library library(){
+        return new Library(libraryDbController());
+    }
+
+    @Bean
+    public LibraryDbController libraryDbController(){
+        return new LibraryDbController();
+    }
+}

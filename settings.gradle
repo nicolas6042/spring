@@ -1,0 +1,11 @@
+include 'spring-testing'
+include 'spring-stream'
+include 'kodilla-exception'
+include 'spring-exception'
+include 'spring-good-patterns'
+include 'spring-collections'
+include 'spring-collection'
+include 'spring-intro'
+include 'spring-patterns'
+include 'spring-jdbc'
+
